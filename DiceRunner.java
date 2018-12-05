@@ -18,6 +18,9 @@ public class DiceRunner{
 			sum = dice.getValue()+dice2.getValue();
 		}while(sum!=2);
 
+		System.out.println();
+		System.out.println( "You got a snake eye on roll number " + counter + ".");
+		System.out.println();
 
 
 		DiceHolder cup = new DiceHolder();
