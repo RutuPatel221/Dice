@@ -17,7 +17,7 @@ public class Die{
 
 	}
 
-	public int getValue( int value ){
+	public int getValue(){
 
 		return value;
 
