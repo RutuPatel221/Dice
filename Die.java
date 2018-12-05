@@ -23,7 +23,7 @@ public class Die{
 
 	}
 
-	public void roll( int value ){
+	public void roll(){
 
 		value = (int)(Math.random()*sides)+1;
 
