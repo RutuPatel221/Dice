@@ -28,6 +28,7 @@ public class DiceRunner{
 		while(getStat != -1){
 			Die die = new Die((int)(Math.random()*10)+1);
 			getStat = cup.addDie(die);
+			if(getStat==1)
 			System.out.println(cup);
 		}
 		cup.shake();
